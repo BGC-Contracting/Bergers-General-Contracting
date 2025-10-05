@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bergers General Contracting | BGC Home Remodeling</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="bgc">BGC</span>
+            <span class="company">Bergers General Contracting</span>
+            <span class="tagline">Home Remodeling</span>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Welcome to Bergers General Contracting</h1>
+            <p>We offer a wide range of home remodeling services: painting, tile, drainage, bathroom remodeling, and more!</p>
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Painting</li>
+                <li>Tile Installation</li>
+                <li>Drainage Solutions</li>
+                <li>Bathroom Remodeling</li>
+                <li>General Home Remodeling</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:Bergerscontracting@gmail.com">Bergerscontracting@gmail.com</a></p>
+            <p>Phone: <a href="tel:7197557767">719-755-7767</a></p>
+        </section>
+        <section class="quote-form">
+            <h2>Request a Quote / Contact</h2>
+            <form id="quoteForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+                <label for="service">Service Needed:</label>
+                <select id="service" name="service">
+                    <option value="Painting">Painting</option>
+                    <option value="Tile">Tile Installation</option>
+                    <option value="Drainage">Drainage Solutions</option>
+                    <option value="Bathroom">Bathroom Remodeling</option>
+                    <option value="General">General Home Remodeling</option>
+                </select>
+                <label for="details">Details:</label>
+                <textarea id="details" name="details" rows="4"></textarea>
+                <button type="submit">Request Quote</button>
+            </form>
+            <div id="formMessage"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Bergers General Contracting. All rights reserved.</p>
+    </footer>
+    <script src="assets/main.js"></script>
+</body>
+</html>
